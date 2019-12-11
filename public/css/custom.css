@@ -1,0 +1,217 @@
+* {
+    font-family: Nunito;
+    -webkit-transition: 0.2s;
+    -webkit-transition-delay: 0.1s;
+}
+
+*:hover {
+    transition: 0.2s;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px #7F8C8D;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CBCBCB;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7F8C8D;
+}
+/* -- */
+
+.jarak {
+    margin-right: 3px;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-250{
+    height: 250px;
+}
+
+/* Amount */
+.value-button {
+    display: inline-block;
+    border: 1px solid #CBCBCB;
+    margin: 0px;
+    margin-bottom: 3px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 0;
+    background: #F0F0F0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.value-button:hover {
+    cursor: pointer;
+}
+
+.tap {
+    cursor: pointer;
+}
+
+.hide {
+    position: absolute;
+    visibility: hidden;
+}
+
+.load {
+    width: 50px;
+    height: 50px;
+    margin-left: 45%;
+    margin-right: 55%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* - Color - */
+.red {
+    color: #C0392B;
+}
+
+.lightRed {
+    color: #E74C3C;
+}
+
+.purple {
+    color: #8E44AD;
+}
+
+.blue {
+    color: #2980B9;
+}
+
+.lightBlue {
+    color: #3498DB;
+}
+
+.green {
+    color: #27AE60;
+}
+
+.lightGreen {
+    color: #2ECC71;
+}
+
+.yellow {
+    color: #F1C40F;
+}
+
+.orange {
+    color: #F39C12;
+}
+
+.brown {
+    color: #D35400;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.softWhite {
+    color: #F8F9F9;
+}
+
+.grey {
+    color: #7F8C8D;
+}
+
+.lightGrey {    
+    color: #CBCBCB;
+}
+
+.xlightGrey {
+    color: #F0F0F0;
+}
+
+.black {
+    color: #000000;
+}
+
+.softBlack {
+    color: #34495E;
+}
+
+/*  */
+
+
+
+
+/* - Input Number- */
+form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+}
+
+form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+}
+
+form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+}
+
+input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #CBCBCB;
+    border-bottom: 1px solid #CBCBCB;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/*  */
+
+
+/* -- */
+
+/*  */
+/* -- */
+
+/*  */
+/* -- */
+
+/*  */
+/* -- */
+
+/*  */
+/* -- */
+
+/*  */
+/* -- */
+
+/*  */
+/* -- */
+
+/*  */
+/* -- */
